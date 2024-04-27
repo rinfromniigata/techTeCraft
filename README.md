@@ -67,6 +67,7 @@ Minecraftを起動し、適宜設定を最適化したら、サーバーに接�
 - Health Bar
 - LunaChat
 - LWC Extended
+
 プラグインはMODと違って、クライアントには何も導入する必要がありません。
 サーバーに接続するだけで各種機能が使えるようになります。
 ## BlueMap
