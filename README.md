@@ -2,6 +2,12 @@
 **techTeCraft**は、TECH☆TECHの公式Minecraftサーバーです。
 基本的にTECH☆TECHのメンバーが遊ぶことができます。
 
+---
+# とても重要な情報
+techTeCraftは現在停止中です。
+ワールドデータの破損、メンバーの多忙、サーバー本体の入れ替えなどによるものです。
+今後、techTeCraft Reloadedを1.18.2バージョンで再構築する予定です。
+
 # 基本情報
 - Minecraft Java Edition 1.16.5
 - MohistMC（PaperMC・Forgeフォーク）
