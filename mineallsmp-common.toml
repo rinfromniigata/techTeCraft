@@ -1,0 +1,27 @@
+
+#net.minecraft.scalar.mineall.mod_MineAllSMP
+[configuration]
+	#String: "iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
+	itemIds = "iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
+	#String: "gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore"
+	blockIds = "gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore, mekanism:tin_ore, mekanism:deepslate_tin_ore, mekanism:osmium_ore, mekanism:deepslate_osmium_ore, mekanism:uranium_ore, mekanism:deepslate_uranium_ore, mekanism:fluorite_ore, mekanism:deepslate_fluorite_ore, mekanism:lead_ore, mekanism:deepslate_lead_ore, thermal:apatite_ore, thermal:deepslate_apatite_ore, thermal:cinnabar_ore, thermal:deepslate_cinnabar_ore, thermal:niter_ore, thermal:deepslate_niter_ore, thermal:sulfur_ore, thermal:deepslate_sulfur_ore, thermal:tin_ore, thermal:deepslate_tin_ore, thermal:lead_ore, thermal:deepslate_lead_ore, thermal:silver_ore, thermal:deepslate_silver_ore, thermal:nickel_ore, thermal:deepslate_nickel_ore, thermal:ruby_ore, thermal:deepslate_ruby_ore, thermal:sapphire_ore, thermal:deepslate_sapphire_ore, create:zinc_ore, create:deepslate_zinc_ore, create:asurine, create:crimsite, create:limestone, create:ochrum, create:scoria, create:scorchia, create:veridium, ae2:sky_stone_block"
+	#Boolean: true
+	DestroyUnder = true
+	#Boolean: true
+	StartMode = true
+	#String: "KEY_M"
+	Key = "KEY_KP_3"
+	#Integer: 0
+	Limiter = 0
+	#Integer: 0
+	#0:not decrease durability 1,2:decrease durability(1=until whole blocks 2=until break an item)
+	Durability = 0
+	#Boolean: false
+	AutoCollect = true
+	#Boolean: false
+	DropGather = true
+	#String: "mod_mineall"
+	channelName = "mod_mineall"
+	#Boolean: true
+	UseOreTag = true
+
