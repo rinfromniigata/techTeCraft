@@ -1,87 +1,196 @@
-# techTeCraft
-**techTeCraft**は、TECH☆TECHの公式Minecraftサーバーです。
+# 概要
+
+**techTeCraft 2.0**は、TECH☆TECHの公式Minecraftサーバーです。
 基本的にTECH☆TECHのメンバーが遊ぶことができます。
 
----
-# とても重要な情報
-techTeCraftは現在停止中です。
-ワールドデータの破損、メンバーの多忙、サーバー本体の入れ替えなどによるものです。
-今後、techTeCraft Reloadedを1.18.2バージョンで再構築する予定です。
+> 今後、外部プレイヤー(他大学サークルや造形大生など)も招待することも考えています。
 
-# 基本情報
-- Minecraft Java Edition 1.16.5
-- MohistMC（PaperMC・Forgeフォーク）
-- サバイバルモード
-- 工業・建築・インフラ系
+前バージョンは概略図砲の負荷に耐えられずサーバーがクラッシュし、しかもバックアップを実施していなかったことにより終了しました。
+半年以上の時間が空きましたが、ついにTECH☆TECHにMinecraftサーバーが戻ってきます！
 
-# 準備
-大前提として、Minecraft Java Editionの有効なライセンスが必要です。
-また、このサーバーはセキュリティ対策のため、ホワイトリスト方式を使っています。接続したいユーザーはDiscordで大渕にユーザーIDを伝えてください。何もせずに接続しても弾かれます。
-## Java8のインストール
-Minecraft1.16.5はJava8を要求します。既にインストールされているならそれを使いますが、ない場合は新たにインストールしてください。
-お使いのOSとアーキテクチャに対応したものであれば、どのディストリビューションでも構いません。多くの場合はWindows x64か、macOS aarch64のどちらかだと思います。
-[Amazon Corretto 8](https://docs.aws.amazon.com/ja_jp/corretto/latest/corretto-8-ug/downloads-list.html)
-## インスタンスの作成
-サーバーと同じMODを正確に導入する必要があるため、既存のインスタンスを使うよりも新規作成したほうがよいでしょう。
-> Readmeでは[Prism Launcher](https://prismlauncher.org/download/)を想定して説明しますが、他のランチャーソフトでも基本操作は同じだと思います。
-1. バージョンは1.16.5、MODローダーはForgeを選んでインスタンスを作成します。
-2. MODは軽量化MODのみ導入してください。特にこだわりが無ければOptiFineを導入すれば良いです。お好みで。
-3. シェーダーパックもお好みで導入してください。
-4. 使用するJavaが正しく選択されていなければ修正してください。またメモリー割当も4GBなど小さいままだったら適宜増やしてください。
+## 基本情報
 
-# MODの導入
-ランチャーソフトのMOD導入機能は便利ですが、その時点で入手できる最新のリリースを導入してしまいます。MODのバージョンはサーバーとクライアントで一致させる必要があるので、今回は手動で導入してください。
-DMCAの関係で、必要なファイル群をまとめて再配布することができないので、以下の一覧から一つづつダウンロードしてください。
-## ストレージ系
-- **Quantum Storage** `1.16.5-5.3.0` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/quantumstorage/download/3103918)
-- **Iron Chests** `1.16.5-11.2.21` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/iron-chests/download/3543538)
-- **Ender Storage** `1.16.5-2.8.0.170-universal` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8/download/3737982)
-## インベントリ系
-- **Inventory Profiles Next** `forge-1.16-1.10.6` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next/download/4753602)
-- **JustEnoughItems** `1.16.5-7.8.0.1009` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/jei/download/4371666)
-## 工業系
-- **Mekanism** `1.16.5-10.1.2.457` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/mekanism/download/3659389)
-- **Create** `1.16.5_v0.3.2g` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/create/download/3536025)
-- **FlyWheel(Legacy)** `1.16-0.2.5` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/flywheel/download/3535459)
-## インフラ系
-- **Ultimate Car Mod** `1.16.5-1.0.17` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod/download/3310670)
-- **Transit Railway** `forge-1.16.5-3.2.0` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/minecraft-transit-railway/download/4358196)
-## その他
-- **libIPN** `forge-1.16-3.0.2` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/libipn/download/4574569)
-- **Kotlin for Forge** `1.17.0-obf` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge/download/3675495)
-- **CodeChickenLib** `1.16.5-4.0.7.445-universal` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/download/3681973)
-- **Architectury API** `1.32.68` [ダウンロード](https://www.curseforge.com/minecraft/mc-mods/architectury-api/download/4521290)
-## 導入
-MODの設定タブで`ファイルを追加`をクリックし、ダウンロードした.jarファイルを選択して開いてください。
+|        | 項目               | 概要                                                   |
+| :----: | ---------------- | ---------------------------------------------------- |
+| バージョン  | JE `1.20.1`      | 互換プラグインは入れていないので、JE`1.20.1`以外のクライアントからは接続できません。      |
+|  ラッパー  | Mohist           | PaperおよびForgeを元にしたハイブリッドサーバー<br>プラグインとMODの両方を導入できます。 |
+|  モード   | サバイバル<br>クリエイティブ | ワールドによってモードを分けています。                                  |
+|  ジャンル  | 工業<br>建築<br>インフラ | 著名な工業MODや建材アクセサリ、交通系のMODを導入しており、まちづくりを行っていくサーバーです。   |
+| セキュリティ | ホワイトリスト          | DiscordでユーザーID教えて下さい                                 |
 
-# 接続
-Minecraftを起動し、適宜設定を最適化したら、サーバーに接続します。
-1. `マルチプレイ`メニューを開き、`サーバーを追加`をクリックしてください。
-2. サーバー名はなんでも構いませんが、**techTeCraftサーバー**などの名前を推奨します。
-3. サーバーアドレスは`techtecraft.nid-techtech.com`です。
-	- サーバーを追加せずに、ダイレクト接続のメニューでこのアドレスを入力することもできます。
-4. サーバー一覧を更新すると、サーバーがオンラインであればアンテナマークが立ちます。
-5. サーバーを選択して接続します。サーバーのホワイトリストに登録されたユーザーIDと一致すれば、サーバーにログインできます。
+## techTeCraft1.0との主な違い
 
-# プラグイン
-いくつかのプラグインを導入しています。以下の通りです。
-- Bluemap
-- Chairs
-- Dead Chest
-- DecentHolograms
-- GSit
-- Health Bar
-- LunaChat
-- LWC Extended
+- Minecraftのバージョンを新しくしました。`1.16.5`→`1.20.1`
+- Multiverseプラグインによりワールドを分割しました。
+- 導入MODの数を大幅に増やしました。
+- 定期的にワールドデータのバックアップを行っています。
+- CPUを更新しました。`Core i5-7500`→`Core i9-10900F`
+- メモリを増設しました。`16GB`→`32GB`
+
+# 導入
+
+[説明](https://github.com/rinfromniigata/techTeCraft/blob/main/%E5%B0%8E%E5%85%A5.md)を読んでください。
+
+# 拡張機能
+
+## MOD
+
+この項目では弊鯖が提供する機能を一部紹介します。
+全てではないです。
+
+### Bigger Stacks
+
+通常アイテムは64個までしかスタックできませんが、これを最大1億個まで増加できます。
+重くなるので弊鯖では0.1億個にしてます。
+
+### Armourer's Workshop
+
+スキンやアイテムを、ドット絵の要領で自由に作れるMODです。
+
+### LittlePictureFrames
+
+画像や動画、ライブ配信などのメディアを埋め込むことができます。
+
+### What Are They Up To
+
+インベントリやメニューを開いているプレイヤーにホログラムを追加します。
+またチャットを入力中のユーザーを表示したりもします。
+
+### Applied Energistics 2 (AE2)
+
+エネルギー系のMODです。資源管理やらなんやら。
+私はあまり工業系に詳しくないので、どんな機能があるのかは把握しきれてません。
+
+### Thermal Series
+
+Team CoFHが開発する産業MODです。
+多岐にわたる機能があり、弊鯖では全てのモジュールを導入しています。
+
+### Mekanism
+
+弊鯖工業MODの中核。
+原子分解機にはいつもお世話になっています。
+
+### Create
+
+機械系MOD。
+よりバニラに近い概念で自動化装置が作れます。
+
+### Vinery
+
+ぶどうを収穫し、それでワインを生産します。
+できたワインは飲めますし、バフとデバフがかかります。*お酒みたい*
+
+### Easy NPC
+
+あまり人数が多い鯖ではないので、街を賑やかすためにはNPCが必要です。
+
+### Minecraft Transit Railway
+
+通称MTR。香港のMTR(都市鉄道)を模して作られた自動運転鉄道MODです。
+非常に動作が軽いです。
+
+## プラグイン
+
+いくつかのプラグインを導入しています。
 
 プラグインはMODと違って、クライアントには何も導入する必要がありません。
 サーバーに接続するだけで各種機能が使えるようになります。
-## BlueMap
+
+### BetterChairs Remastered
+
+階段に座ることができるようになります。
+
+### Dead Chest
+
+死亡したあと、持っていたアイテムがそこに散らばることなく、本人のみが開けられるチェストに収納されます。
+JourneyMapの死亡記録ウェイポイントと合わせて、アイテムのロストを防ぐことができます。
+
+### DynMap
+
 インタラクティブな2D/3Dマップを使えるようにするプラグインです。
-マップはブラウザベースで動作します。URLは[bluemap.nid-techtech.com](https://bluemap.nid-techtech.com)です。
-閲覧にはメールアドレス認証が必要です。長岡造形大学から配布されたメールアドレスを入力し、送られてきた認証コードを入力してください。
-## LunaChat
-ローマ字で入力されたテキストチャットを自動で日本語に変換するプラグインです。
-テキストチャットで日本語を入力するのは面倒ですが、このプラグインによってIME切替なしで日本語を送信できます。ただし誤変換など一切考慮してくれないので判断オブ判断になります。
-# その他
-私は今までサバイバルをプレイしたことが無いので、いろいろわかりません（インベントリの使い方とか空腹の概念とか夜間の安全確保とか）。ご教示お願いします。
+マップはブラウザで動作します。
+
+URLは[dynmap.nid-techtech.com](https://dynmap.nid-techtech.com)です。
+
+### DynMap-Multiverse
+
+Multiverseで管理している複数のワールドデータをDynMapで表示できるようにします。
+
+### LuckPerm
+
+権限を管理します。
+
+### LunaChat
+
+ローマ字で送信されたテキストチャットを自動で日本語に変換します。
+
+テキストチャットで日本語を入力するのは面倒ですが、このプラグインによってIME切替なしで日本語を送信できます。
+ただ誤変換は頻発します。
+
+### Multiverse-Core
+
+一つのサーバー内に複数のワールドを作成します。
+まるでディメンションを行き来するかのような手軽さで別ワールドにワープできるようになります。
+
+### Multiverse-Inventories
+
+複数のワールド間で持ち物やHP、XPなどを持ち越します。
+
+### Multiverse-Portals
+
+複数のワールドを行き来できるポータルを作成します。
+テレポートの際にコマンドを入力する必要がなくなります。
+
+### OnePlayerSleep
+
+複数人がインしている場合でも、一人だけ寝れば夜がスキップされます。
+
+# ワールド
+
+Multiverseによって複数のワールドを作成し、用途別に使い分けます。
+
+## サバイバル
+
+サバイバルのワールド間では持ち物などを共有できます。
+
+### main_world
+
+建築ワールドです。
+
+最優先のルールとして、「**景観を損ねない**」ということを遵守してください。
+
+装置を設置する場合、自然な建築物に見せかけるとか、すべて地下に設置するなど。
+鉱石の採掘を目的とする大規模な露天掘りは禁止です。建築の準備として(整地)ならOK。
+
+ネザー及びエンドで死亡した場合、このワールドに戻ってくるように設定してあります。
+エンダーマンとクリーパーのスポーンを無効にしてあります。
+
+### resource_world
+
+資源ワールドです。
+
+ブランチマイニングやQuarryを含む採掘はこちらでしてください。
+また、景観を損ねる可能性のある大規模な装置（高高度風力発電所など）はこちらに設置してください。
+
+ざっと調べた感じだと、EnderIOやThermalExpansionのアイテムを利用すると、異なるワールド間で送電網を作れるらしいですね。
+
+このワールドは定期的に引き継ぎを行う予定です。
+エンダーマンとクリーパーのスポーンを無効にしてあります。
+
+### neather
+
+ネザーです。
+
+### the_end
+
+エンドです。
+
+## クリエイティブ
+
+### sandbox_world
+
+検証ワールドです。装置や建築の試作などができます。
+
+ピースフル、かつ全てのMobがスポーンしない設定です。
+~~本当はスーパーフラットにしたかったけどできなかった~~
