@@ -88,7 +88,7 @@ Discordを併用する必要がありません。
 インタラクティブなマップを使えるようにするプラグインです。
 マップはブラウザで動作します。
 
-URLは[map.nid-techtech.com](https://map.nid-techtech.com)です。
+URLは`編集予定`です。
 
 ### LunaChat
 
@@ -107,4 +107,4 @@ Mobの振る舞いを制御します。
 
 # ワールド
 
-
+`編集予定`
